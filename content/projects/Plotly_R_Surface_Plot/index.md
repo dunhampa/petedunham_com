@@ -53,7 +53,7 @@ The source code with this trick can be found in this GitHub Repo:
 
 The R code exert, below,  shows the prep of x,y,and z data to surface data for rendering using [Plotly](https://plot.ly/r/3d-surface-plots/).
 
-```{r setup, include=FALSE}
+{{< code language="R" >}}
   library(dplyr)
   library(akima)
   library(plotly)
@@ -91,7 +91,7 @@ The R code exert, below,  shows the prep of x,y,and z data to surface data for r
         aspectratio = list(x = 1, y = .3, z = .1)
       )
     )
-  ```
+{{< /code >}}
 
 
 
