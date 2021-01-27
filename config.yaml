@@ -124,7 +124,7 @@ params:
     # option to specify image in the homepage
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
-    imageWidth: 60%
+    imageWidth: 80%
     #title of posts over summaries
     posts_title: Projects
     # customized settings to allow to have featured sectional 
