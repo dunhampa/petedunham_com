@@ -1,6 +1,7 @@
 ---
 title: "Ohio Birth Data Exploration: Clickable Map Analytics Using Leaflet in Shiny"
-date: 2020-02-03T23:53:00+01:00
+post_date: "17 Feb 2021"
+date: 2021-02-03T23:53:00+01:00
 draft: false
 type: "project"
 hideLastModified: false
@@ -56,7 +57,7 @@ The entire source code of the app is available [here](https://github.com/dunhamp
 
 
 
-```{r setup, include=FALSE}
+{{< codeWide language="r" >}}
  map<-leaflet(SingleState,options = leafletOptions(zoomControl = FALSE, 
               zoomLevelFixed = TRUE, dragging=FALSE, minZoom = 7, maxZoom = 7) ) %>%
       
@@ -70,14 +71,17 @@ The entire source code of the app is available [here](https://github.com/dunhamp
                           </b>",SingleState$NAME,"</font></center>",
                           "<b>% of Low Birth Weight Births: </b>", sprintf("%1.2f%%", 
                           100*SingleState$percent),"<br/>")))
-    
-    map<-map %>% setView(-82.1, 39.9,  zoom = 7)
+                          
+      map<-map %>% setView(-82.1, 39.9,  zoom = 7)
+
+      saveRDS(map, file="map.rds")
+
+    {{< /codeWide >}}
   
     
-    saveRDS(map, file="map.rds")
+    
 
 
-```
 
 <style>
 
