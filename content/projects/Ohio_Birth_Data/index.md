@@ -4,12 +4,25 @@ post_date: "17 Feb 2021"
 date: 2021-02-03T23:53:00+01:00
 draft: false
 type: "project"
-hideLastModified: false
+hideLastModified: true
 summary: "A Shiny app using shinydashboard and Leaflet to allow for analysis of county data by clicking on Ohio country map"
 summaryImage: "OhioBirthData.png"
 tags: ["R","Shiny"]
 weight: 10
 ---
+
+{{<rawhtml>}}
+<div class="columns">
+    <div class="column is-3"></div>
+    <div class="column is-6">
+       <center><img src="./images/OhioBirthData.png" alt="OhioBirthData style="width:80%">
+    </div>
+<div class="column is-3"></div>
+</div>
+
+{{</ rawhtml>}}
+
+Last Modified: February 13, 2021
 
 
 This post discusses using R/Shiny with Leaflet and shinydasbhoard package to make a click-able map. Graph views of data is updated based on the county clicked by the user. The map is prepped to display popup windows with details and the application updates various plots (ggplot2) based on the county selected.
