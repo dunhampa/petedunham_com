@@ -22,7 +22,7 @@ weight: 10
 
 {{</ rawhtml>}}
 
-Last Modified: February 13, 2021
+*Last Modified: February 13, 2021*
 
 
 This post discusses using R/Shiny with Leaflet and shinydasbhoard package to make a click-able map. Graph views of data is updated based on the county clicked by the user. The map is prepped to display popup windows with details and the application updates various plots (ggplot2) based on the county selected.
