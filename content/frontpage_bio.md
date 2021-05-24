@@ -1,7 +1,3 @@
-
-
-
-
 ### Hi, I’m Pete. 
 
-I use this site to share projects, tutorials, and notable solutioning journeys. I am always interested in meeting new people to collaborate on related projects. Find recent related posts below
+I'm using this site to share open source projects, fullstack problem solving journeys, and other random creative or technical endeavors. 

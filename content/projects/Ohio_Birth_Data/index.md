@@ -10,19 +10,17 @@ summaryImage: "OhioBirthData.png"
 tags: ["R","Shiny"]
 weight: 10
 ---
-
-{{<rawhtml>}}
-<div class="columns">
-    <div class="column is-3"></div>
-    <div class="column is-6">
-       <center><img src="./images/OhioBirthData.png" alt="OhioBirthData style="width:80%">
-    </div>
-<div class="column is-3"></div>
-</div>
-
-{{</ rawhtml>}}
-
 *Last Modified: February 13, 2021*
+
+
+
+
+{{< imageToClick imagePath = "images/OhioBirthData.png" Capition = "App Example"  width ="100%" resize = "600x" >}}
+
+
+
+
+
 
 
 This post discusses using R/Shiny with Leaflet and shinydasbhoard package to make a click-able map. Graph views of data is updated based on the county clicked by the user. The map is prepped to display popup windows with details and the application updates various plots (ggplot2) based on the county selected.

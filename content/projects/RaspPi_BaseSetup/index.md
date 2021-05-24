@@ -1,52 +1,68 @@
 ---
-title: "Raspberry Pi Base Setup For Interactive Art"
+title: "Pi Processing Art"
 date: 2019-10-27T23:53:00+01:00
-draft: true
+draft: false
 type: "project"
 hideLastModified: true
 summary: "Some base setup for Rasphberry PI"
 summaryImage: "PiLogo.png"
 tags: ["Interactive Art"]
-weight: 65
+weight: 15
 ---
-
-{{<rawhtml>}}
-
-
-<script src="https://unpkg.com/formiojs@latest/dist/formio.embed.js?src=https://qcaegiyxrnlbkdu.form.io/formsandbox"></script>
 
 
 <div class="columns">
-    <div class="column is-3"></div>
-    <div class="column is-6">
-       <center><img src="raspberry-pi-icon-png-0.jpg" alt="Raspberry Pi" style="width:50%">
+    <div class="column is-4"></div>
+    <div class="column is-4">
+       <img src="raspberry-pi-icon-png-0.jpg" alt="Raspberry Pi" style="width:50%">
     </div>
-<div class="column is-3"></div>
+<div class="column is-4"></div>
 </div>
-{{</ rawhtml>}}
 
-*Last Modified: February 13, 2021*
 
-# Summary
 
-This page covers getting a Raspberry Pi up from scratch and setting it up for screensharing to access from a laptop (in this case a Macbook Pro)
 
-# Background
+*Last Modified: May 21, 2021*
+
+# Summary 
+
+This page document the steps on getting a Raspberry Pi up from scratch and setting it up for screensharing to access from a laptop (in this case a Macbook Pro) using a VPN connection.
+
+I used these steps to create some visual art from a [Raspberry Pi computer](https://en.wikipedia.org/wiki/Raspberry_Pi) and software called [Processing](https://processing.org/) . Here's the finished "product":
+
+<details><summary>What is A PI?</summary>
+&nbsp
 
 [Raspberry Pis](https://en.wikipedia.org/wiki/Raspberry_Pi) (aka "Pis") are small and inexpensive computers that have a variety uses including teaching computing, IoT, and art. Because of there small size and low cost they Pis are perfect for creating and curating interative art. 
 
-I use Pis to connect to TVs for interactive art. 
-
-Everytime I setup a new Pi I make a series of tweaks to set things as they come up - such as setting up for remote access, and installing new software. Each time I do it alittle differently -- so I lose some consistency and time googling. 
-
-No longer! I am documenting it here:
+</details>
+&nbsp
 
 
-#### Raspberry Pi Overview
 
-* The computers are approximately the size of two decks of cards. 
-* The 4th generation Raspberry Pis (aka Pis) are readily available and include wireless ethernet and dual monitor (1080) capabilities.  
-* You can buy a 4th generation Pi for $30 with RAM 2GB of memory or $50 with 4GB of RAM memory
+
+
+<div class="columns">
+    <div class="column is-6">
+            {{<imageToClick imagePath = "IMG_0077.png" Capition = "Example That Expands"  width = "100%" resize = "1000x" >}}
+    </div>
+    <div class="column is-6">
+        {{<imageToClick imagePath = "IMG_0083.png" Capition = "Example That Expands"  width ="100%" resize = "600x"  >}}
+    </div>
+</div>
+
+<div class="columns">
+    <div class="column is-6">
+            {{<imageToClick imagePath = "IMG_0078.png" Capition = "Example That Expands"  width ="100%" resize = "600x" >}}
+    </div>
+    <div class="column is-6">
+        {{<imageToClick imagePath = "IMG_0079.png" Capition = "Example That Expands"  width ="100%" resize = "600x">}}
+    </div>
+</div>
+
+
+# Setting up the PI
+
 
 ## Step 1: Get the equipment
 
@@ -110,10 +126,16 @@ After the first boot there are some one-time prompt that guides some one time se
 * Update Software
 * Restart once "Setup Complete"
 
+## Step 7: Config Pi to Allow For Screen Sharing 
 
-## Step 7: Config Pi to Allow For Screen Sharing
+
+
+
+<details><summary>Continue</summary>
+
 
 ### **Get to *Raspberry PI Config*:**
+
 
 From top left PI menu: PI -> Preferences -> Raspberry PI Config
 
@@ -148,6 +170,8 @@ Open the command line and run:
 sudo raspi-config
 {{< /code >}}
 
+</details>
 
-Need to build out these steps:
-https://fullstackproblemsolver.atlassian.net/wiki/spaces/FSPS/pages/279478273/Raspberry+PI+setup
+
+
+

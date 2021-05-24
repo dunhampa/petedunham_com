@@ -1,5 +1,5 @@
 ---
-title: "Inspiration For Creating a Personal Website"
+title: "Why Create A Website?"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 type: "project"
@@ -9,7 +9,7 @@ summaryImage: "circle.png"
 tags: ["Inspiration"]
 ---
 	
-I was contemplating (procrastinating) this website for sometime but I was finally pushed over the edge by:
+The following resources inspired me to create my a personal portfolio website: 
 
 - Watching [this excellent talk](#Talk)
 - Reading [this book](#Book)
@@ -25,9 +25,7 @@ I was contemplating (procrastinating) this website for sometime but I was finall
       </div>
 {{</ rawhtml >}}
 
-<div class="columns">
-<div class="column is-3"></div>
-<div class="column is-6">
+
 <div style="position:relative;padding-top:56.25%;">
   <iframe src="https://www.youtube.com/embed/th79W4rv67g" frameborder="0" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
@@ -35,10 +33,6 @@ I was contemplating (procrastinating) this website for sometime but I was finall
 
 <div>&nbsp</div>
 
-</div>
-
-<div class="column is-3"></div>
-</div>
 
 Prior to finding this talk, I had randomly relied on several of David's (the presenter) open source contributions:
 

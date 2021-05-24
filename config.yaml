@@ -16,7 +16,7 @@ theme: fullstack-portfolio-refresh
 DefaultContentLanguage: en
 
 ## Option to disable additional language in your site.
-# disableLanguages: ["ru"]
+disableLanguages: ["ru"]
 
 disableKinds: ["sitemap","RSS"]
 
@@ -48,7 +48,10 @@ enableEmoji: true
 params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
-  articlesPerRow: 3 
+  articlesPerRow: 1
+  cardType: "longNews"  #two options are "longNews", "square"
+  ## sett Homepage Sections for the same options but related to homepage
+
 
   # option to specify the favicon image of the site
   # the path is relative to the folder "assetDir" of this configuration
@@ -113,9 +116,9 @@ params:
   homepage:
     # this options let you specify if you want a link to the homepage
     # it can be: "none", "menu", "footer" or "menu+footer"
-    # linkPosition: "footer" 
+    linkPosition: "menu+footer" 
     # this options let you specify the text of the link to the homepage
-    # linkText: "Homepage"  
+    linkText: "Home"  
     # option to specify the title in the homepage
     title: Pete Dunham
     # option to specify the subtitle in the homepage
@@ -128,14 +131,15 @@ params:
     # option to specify the width of the image in the homepage
     imageWidth: 80%
     #title of posts over summaries
-    posts_title: Projects
+    posts_title: Featured Projects
     # customized settings to allow to have featured sectional 
     # posts on the homepage. Leaving to false is default and 
     # then posts will be sorted by Weight:
     # Feature posts in homepage that have "series: featured" front matter
     useFeaturedSeries: false #if false, any post come come to front page by weight weight:1 is top post
-
-
+    articlesPerRow: 1
+    cardType: "longNews"  #two options are "longNews", "square"
+    limitPostsTo: 6
 
   # footer options
   footer:

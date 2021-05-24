@@ -21,10 +21,10 @@ In my career (and hobbies) I've worked across the stack but the journey is never
 
 
 ## Art From Code:
-###  [SALCI](https://github.com/dunhampa/SALCI) \
+###  [SALCI](https://github.com/dunhampa/SALCI) 
   **S**ensor **A**rray **L**ight **C**ontrolled **I**nstrument:
   A networked music instrument I envisioned and developed using open source Arduino hardware/software. This instrument uses sensors to measure changes in light conditions and generates MIDI data that can be synthesized in various forms.\
 
-###  [A Happy Little Bug](https://github.com/dunhampa/A_Happy_Little_Bug) \
+###  [A Happy Little Bug](https://github.com/dunhampa/A_Happy_Little_Bug) 
 Using Processing.org (Java), I enjoy building graphics and animations. The best part of using a programming language for graphical work is that there is no such thing as an ugly bug. Similar to how Bob Ross makes a "happy little tree" out of a accidental brush stroke, a mistake in incrementing a loop counter can create a stacked,colorful facet, instead of an organized array of circles. Or in a Bob Ross analogy a "happy little bug"
 

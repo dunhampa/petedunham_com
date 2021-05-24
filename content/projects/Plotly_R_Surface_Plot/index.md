@@ -3,7 +3,7 @@ title: "Surface Plots Using R and Plotly"
 date: 2019-11-18T23:53:00+01:00
 draft: false
 summaryImage: "3DScansPlotly.png"
-hideLastModified: false
+hideLastModified: true
 type: "project"
 summary: "Using R and Plotly to create surface plots that can be shared and rendered responsively in web browsers"
 summaryImage: "3DScansPlotly.png"
@@ -13,6 +13,7 @@ weight: 30
 
 
 <center>
+
 ### Example 1:
 </center>
 <center><img src="Chuck_V11.gif" alt="3D Interactive Chuck"></center>
@@ -34,6 +35,7 @@ The examples on this page are videos of me interacting with the plots. If you wa
       </div></left>
 
 <center>
+
 ### Example 2:
 </center>
 <center><img src="Board_V4.gif" alt="3D Interactive Board"></center>
