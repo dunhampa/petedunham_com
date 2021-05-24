@@ -2,7 +2,7 @@
 title: "Full Stack Canon (Reading)"
 date: 2020-01-07T23:53:00+01:00
 draft: false
-hideLastModified: false
+hideLastModified: true
 type: "project"
 summaryImage: "fullstack.png"
 summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon."
