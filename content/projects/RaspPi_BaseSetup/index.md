@@ -19,7 +19,7 @@ weight: 15
 <div class="column is-4"></div>
 </div>
 
-
+  {{<imageToClick imagePath = "RaspberryPIArtCollage.jpg" Capition = "Example That Expands"  width ="50%" >}}
 
 
 *Last Modified: May 21, 2021*
@@ -69,12 +69,22 @@ I used these steps to create some visual art from a [Raspberry Pi computer](http
 Get a Pi (mini computer) and needed auxillary items to get started. 
 
 * **1:** Get or have a Raspberry PI: [For Example](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-4gb)
-* **2:** MicoSD card (I use 32 or 64GB):
+* **2:** MicoSD card (I use 32 or 64GB): 
+         
+<div class="columns">
+    <div class="column is-4"></div>
+    <div class="column is-5">
+     {{<imageToClick imagePath = "MicroSdCardv2.jpg" Capition = "MicroSD Card"  width ="50%">}}
+    </div>
+<div class="column is-5"></div>
+</div>
+
 * **3:** If you have a Raspberry Pi 4 you will need micro HDMI to regard HDMI to connect to monitor. Adapters may have come with your Pi but if no you [can get them](https://www.amazon.com/gp/product/B00B2HORKE/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) 
 * **4:** A power adapter if not in your kit [get power](https://www.amazon.com/Raspberry-Power-Supply-USB-C-Listed/dp/B07W8XHMJZ/ref=sr_1_4?crid=224A2MQZYOJNJ&dchild=1&keywords=raspberry%2Bpi%2B4%2Badapter&qid=1613622754&sprefix=raspb%2Caps%2C182&sr=8-4&th=1)
 * **5:** A computer with an way to read/write from a SD or microSD card (with adapter). The micro to standard SD adapter usually come with purchase of microSD 
 
-<img src="MicroSdCard.png" alt="MicroSD Card" style="width:600px"></a><p>
+
+
 
 * Raspberry Pi:
 

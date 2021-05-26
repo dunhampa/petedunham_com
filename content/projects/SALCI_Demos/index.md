@@ -3,7 +3,7 @@ title: "SALCI Performances"
 date: 2019-10-27T23:53:00+01:00
 draft: false
 type: "project"
-hideLastModified: false
+hideLastModified: true
 summary: "Some videos of me playing SALCI - a musical instrument I built using open source hardware and sorftware"
 summaryImage: "SALCI_Demo.png"
 tags: ["Arduino","SALCI"]
