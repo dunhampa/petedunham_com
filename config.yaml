@@ -148,9 +148,14 @@ params:
     logo: "/images/refresh-square.svg"
 
     # option to specify your contact email in the footer
-    email: 
-      link: dunhampa@gmail.com
-      title: Contact Me
+    #email: 
+     # link: /contact
+    #title: Contact Me
+
+    # option to specify your contact email in the footer
+    contact: 
+      link: "contact"
+      title: "Contact Me"
     
     # option to specify your linkedin profile in the footer
     # **uncomment** the lines below to show in footer
