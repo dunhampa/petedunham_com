@@ -1,11 +1,11 @@
 ---
-title: "Full Stack Canon (Reading)"
+title: "Fullstack History"
 date: 2020-01-07T23:53:00+01:00
 draft: false
 hideLastModified: true
 type: "project"
-summaryImage: "fullstack.png"
-summary: "From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon."
+summaryImage: "pexels-engin-akyurt-2952871.jpeg"
+summary: "Key articles and history that have shaped my understanding of the technology landscape"
 tags: ["Full Stack"]
 weight: 50
 ---
