@@ -45,12 +45,13 @@ The examples on this page are videos of me interacting with the plots. If you wa
 The trick for me was getting the 3 dimensional x,y,z into a format for a surface plot to render. This required finding a new package "akima" to use an interpolation function before sending to the Plolty package. 
 
 The source code with this trick can be found in this GitHub Repo:
-            <a href="https://github.com/dunhampa/R_3D_Scanner_Plotting" title="R 3D Scanning Plotting">
-              <span class="fa-stack fa-lg aria-hidden="true"">
-                <i class="fa fa-circle fa-stack-2x aria-hidden="true""></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse aria-hidden="true""></i>
-              </span>
-            </a>
+
+<a href="https://github.com/dunhampa/R_3D_Scanner_Plotting" title="R 3D Scanning Plotting">
+  <span class="fa-stack fa-lg aria-hidden="true"">
+    <i class="fa fa-circle fa-stack-2x aria-hidden="true""></i>
+    <i class="fa fa-github fa-stack-1x fa-inverse aria-hidden="true""></i>
+  </span>
+</a>
 
 
 The R code exert, below,  shows the prep of x,y,and z data to surface data for rendering using [Plotly](https://plot.ly/r/3d-surface-plots/).
