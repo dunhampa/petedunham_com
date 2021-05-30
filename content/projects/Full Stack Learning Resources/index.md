@@ -11,46 +11,20 @@ weight: 50
 ---
 
 
-
-From time to time I get asked about what resources I can recommend to someone looking to begin their fullstack journey. Here is my on-going attempt to assemble a full stack canon:
-
-{{<rawhtml >}}
-<!-- This is the script for the issue collector feedback form -->
-
-<script type="text/javascript" src="https://rbtlabs.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/rzvw4p/b/23/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9351b067"></script>
-
-<!-- This is the script for specifying the custom trigger. -->
-
-<script type="text/javascript">
-    window.ATL_JQ_PAGE_PROPS =  {
-        "triggerFunction": function(showCollectorDialog) {
-            //Requries that jQuery is available! 
-            jQuery("#feedback-button").click(function(e) {
-                e.preventDefault();
-                showCollectorDialog();
-            });
-        }
-    };
-</script>
-
-{{</rawhtml >}}
-
-<a href="#" id="feedback-button" class='btn btn-primary btn-large'>Send Me A Message:</a> to suggestion addition, correct, or other.
-
-
-
-
+These articles and links have shaped how I think about technology.  I add will add others. Feel free to drop me a line if there is a good ones to add.
 
  
-{{<book title="What is Code?" authors="Paul Ford" image="images/What_is_Code.jpg" size="x600">}} 
+ {{<book title="What is Code?" authors="Paul Ford" image="images/What_is_Code.jpg" size="x600">}} 
 
 This article explains everything on the software spectrum from burning barrels full of cash to what it takes a computer to print an “A” on the screen. 
 
- The first time I read this.. my mind was blown.
+The first time I read this.. my mind was blown.
 
-  The full article is available online for free [here](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/).  
+Because of some visual animations in the *official* online version, below, somewhat difficult to consume. I recommend googling for the PDF and reading that instead :
+<a href="https://www.google.com">this wikipedia article</a>.
 
-Because of some visual animations I find the online version somewhat difficult to consume. I recommend googling for the PDF and reading that (also free).
+The full article is available online for free <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"> What is Code (Interactive)</a>.  
+
 
 {{</book>}} 
 
