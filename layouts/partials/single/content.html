@@ -1,0 +1,80 @@
+<section class="section is-small">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-centered-tablet-portrait">
+          <h1 class="title is-2 section-title">{{- .Title -}}</h1>
+          <h5 class="subtitle is-5 is-muted">{{- .Params.Subtitle -}}</h5>
+     
+          <div class="divider"></div>
+       
+            <!-- This is the script for the issue collector feedback form -->
+            
+           
+          {{/*  <section class="section content">  */}}
+          <section class="section content">
+            <!-- <div class="here here here"> -->
+            
+              
+  
+  
+          <div class="columns">
+            <div class="column is-2">
+               
+            </div>
+             
+                <div class="column is-8" align="left">
+                  <div class="container">
+                  {{- .Content -}}
+                </div>
+             </div>
+            <div class="column is-2">
+
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <script type="text/javascript" src="https://rbtlabs.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/rzvw4p/b/23/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9351b067"></script>
+            
+                <!-- This is the script for specifying the custom trigger. -->
+                
+                <script type="text/javascript">
+                    window.ATL_JQ_PAGE_PROPS =  {
+                        "triggerFunction": function(showCollectorDialog) {
+                            //Requries that jQuery is available! 
+                            jQuery("#feedback-button").click(function(e) {
+                                e.preventDefault();
+                                showCollectorDialog();
+                            });
+                        }
+                    };
+                </script>
+                
+                
+                <div class="box">
+                <a href="#" id="feedback-button" class='btn btn-primary btn-large'> <span class="icon"><i class="fa fa-envelope"></i></span>Send A Message or Suggestion</a>
+                </div>
+
+            </div>
+  
+  
+  
+  
+            <!-- </div> -->
+          </section>
+        </div>
+      </div>
+    </div>  
+    <!-- <div class="container">
+      <div class="columns">
+        <div class="column">
+        </div>
+      </div>
+    </div> -->
+    {{- if not .Params.hideLastModified -}}
+    <div class="container">
+      <div class="columns">
+        <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+          Last modified: {{- .Lastmod.Format "2 January 2006" -}}
+        </div>
+      </div>
+    </div>
+    {{- end -}}
+  </section>

@@ -44,19 +44,19 @@ I used these steps to create some visual art from a [Raspberry Pi computer](http
 
 <div class="columns">
     <div class="column is-6">
-            {{<imageToClick imagePath = "IMG_0077.png" Capition = "Example That Expands"  width = "100%" resize = "1000x" >}}
+            {{<imageToClick imagePath = "IMG_0077.png" Capition = "Example That Expands"  width = "100%" resize = "1000x800" >}}
     </div>
     <div class="column is-6">
-        {{<imageToClick imagePath = "IMG_0083.png" Capition = "Example That Expands"  width ="100%" resize = "600x"  >}}
+        {{<imageToClick imagePath = "IMG_0083.png" Capition = "Example That Expands"  width ="100%" resize = "600x400"  >}}
     </div>
 </div>
 
 <div class="columns">
     <div class="column is-6">
-            {{<imageToClick imagePath = "IMG_0078.png" Capition = "Example That Expands"  width ="100%" resize = "600x" >}}
+            {{<imageToClick imagePath = "IMG_0078.png" Capition = "Example That Expands"  width ="100%" resize = "600x400" >}}
     </div>
     <div class="column is-6">
-        {{<imageToClick imagePath = "IMG_0079.png" Capition = "Example That Expands"  width ="100%" resize = "600x">}}
+        {{<imageToClick imagePath = "IMG_0079.png" Capition = "Example That Expands"  width ="100%" resize = "600x400">}}
     </div>
 </div>
 

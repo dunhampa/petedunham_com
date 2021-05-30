@@ -15,7 +15,7 @@ weight: 10
 
 
 
-{{< imageToClick imagePath = "images/OhioBirthData.png" Capition = "App Example"  width ="100%" resize = "600x" >}}
+{{< imageToClick imagePath = "images/OhioBirthData.png" Capition = "App Example"  width ="75%">}}
 
 
 
