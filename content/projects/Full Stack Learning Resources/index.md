@@ -18,10 +18,10 @@ These articles and links have shaped how I think about technology.  I add will a
 
 This article explains everything on the software spectrum from burning barrels full of cash to what it takes a computer to print an “A” on the screen. 
 
-The first time I read this.. my mind was blown.
+The first time I read this.. my. mind. was. blown.
 
-Because of some visual animations in the *official* online version, below, somewhat difficult to consume. I recommend googling for the PDF and reading that instead :
-<a href="https://www.google.com">this wikipedia article</a>.
+Because of some visual animations in the *official* online version, below, I find somewhat difficult to /readconsume. I recommend googling for the PDF and reading that instead :
+<a href="https://veryinteractive.net/content/2-library/25-what-is-code/ford-whatiscode.pdf">PDF version</a>.
 
 The full article is available online for free <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/"> What is Code (Interactive)</a>.  
 
