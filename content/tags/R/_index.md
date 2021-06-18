@@ -8,6 +8,4 @@ headless: true
 ---
 
 
-# R Projects
-
 Some of my projects that leverage the R programming language.

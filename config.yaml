@@ -125,7 +125,7 @@ params:
     subtitle: 
     # write bio and put it in content/frontpage_bio.md
     bio: ""
-    bulletpoints: ["Full Stack Problem Solver","Data Scientist", "Interactive Art and Music Coder"]
+    bulletpoints: ["▪ Full Stack Problem Solver","▪ Data Scientist", "▪ Interactive Art and Music Coder"]
     # option to specify image in the homepage
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage

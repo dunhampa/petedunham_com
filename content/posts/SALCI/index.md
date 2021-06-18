@@ -56,7 +56,7 @@ In the spirt of open source I've am working on detailed build instructions, part
 
 # Demos 
 
-[See here for more videos of SALCI performances]({{< ref "/projects/SALCI_Demos" >}} "SALCI performance videos")
+[See here for more videos of SALCI performances]({{< ref "/posts/SALCI_Demos" >}} "SALCI performance videos")
 
 Here are some quick demos of me synthesizing some music on SALCI by using shadows. 
 
