@@ -131,7 +131,7 @@ params:
     # option to specify the width of the image in the homepage
     imageWidth: 80%
     #title of posts over summaries
-    posts_title: Featured Projects
+    posts_title: Featured Posts
     # customized settings to allow to have featured sectional 
     # posts on the homepage. Leaving to false is default and 
     # then posts will be sorted by Weight:
