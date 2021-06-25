@@ -58,9 +58,9 @@ params:
   favicon: "/images/favicon.svg"
 
   # parameter used to specify if you want to minify the imported js
-  jsMinify: false
+  jsMinify: true
   # parameter used to specify if you want to minify the imported css
-  cssMinify: false
+  cssMinify: true
   # parameter used to specify if you want to calculate the css integrity
   cssIntegrity: true
   # parameter used to specify if you want to calculate the js integrity
@@ -129,7 +129,7 @@ params:
     # option to specify image in the homepage
     image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
-    imageWidth: 80%
+    imageWidth: 100%
     #title of posts over summaries
     posts_title: Featured Posts
     # customized settings to allow to have featured sectional 
