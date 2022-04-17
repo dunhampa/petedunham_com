@@ -48,8 +48,8 @@ enableEmoji: true
 params:
   # parameter used to specify the number of article in each row 
   # for the summary pages, the possible options are: 2, 3, 4, 5 or 6
-  articlesPerRow: 1
-  cardType: "longNews"  #two options are "longNews", "square"
+  articlesPerRow: 3
+  cardType: "square"  #two options are "longNews", "square"
   ## sett Homepage Sections for the same options but related to homepage
 
 
@@ -137,9 +137,9 @@ params:
     # then posts will be sorted by Weight:
     # Feature posts in homepage that have "series: featured" front matter
     useFeaturedSeries: false #if false, any post come come to front page by weight weight:1 is top post
-    articlesPerRow: 1
-    cardType: "longNews"  #two options are "longNews", "square"
-    limitPostsTo: 6
+    articlesPerRow: 2
+    cardType: "square"  #two options are "longNews", "square"
+    limitPostsTo: 4
 
   # footer options
   footer:
