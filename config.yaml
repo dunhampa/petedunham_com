@@ -140,7 +140,6 @@ params:
     articlesPerRow: 2
     cardType: "square"  #two options are "longNews", "square"
     limitPostsTo: 4
-
   # footer options
   footer:
     # option to specify the logo in the footer
