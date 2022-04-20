@@ -1,10 +1,10 @@
 ---
-title: "SALCI Re-Animated (Awakes After Slumber)"
+title: "Example App"
 date: 2019-10-27T23:53:00+01:00
 draft: false
 type: "project"
 hideLastModified: true
-summary: "After 2 years, suriving 2 moves -- original SALCI gets rewired with some Arduino protoyshield boards. SALCI wakes up...kind of like Frankenstein...some kinks to work out"
+summary: "Example App opening in new tab"
 summaryImage: "waking_up.png"
 tags: ["Arduino","SALCI"]
 weight: 65
