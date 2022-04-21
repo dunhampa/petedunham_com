@@ -5,7 +5,7 @@ draft: false
 type: "project"
 hideLastModified: true
 summary: "SALCI is an open source music instrument based on Arduino. SALCI uses a light sensor array to generate music.  A person may intentionally manipulate the light, creating shadows, to play the instrument"
-summaryImage: "SALCIThumb.png"
+summaryImage: "SALCIThumb.webp"
 tags: ["Arduino","SALCI"]
 weight: 1
 ---

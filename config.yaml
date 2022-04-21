@@ -127,9 +127,9 @@ params:
     bio: ""
     bulletpoints: ["▪ Full Stack Problem Solver","▪ Data Scientist", "▪ Interactive Art and Music Coder"]
     # option to specify image in the homepage
-    image: "/images/logo.png" 
+    image: "/images/avatar.webp" 
     # option to specify the width of the image in the homepage
-    imageWidth: 100%
+    imageWidth: 85%
     #title of posts over summaries
     posts_title: Featured Posts
     # customized settings to allow to have featured sectional 
