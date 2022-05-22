@@ -7,6 +7,7 @@ hideLastModified: false
 summary: "I was inspired to create a website by an excellent talk, a thought provoking book, and other personal websites sharing their projects and journeys."
 summaryImage: "circle.png"
 tags: ["Inspiration"]
+weight: 100
 ---
 	
 The following resources inspired me to create my a personal portfolio website: 
