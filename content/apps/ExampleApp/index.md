@@ -1,7 +1,7 @@
 ---
 title: "Example App"
 date: 2019-10-27T23:53:00+01:00
-draft: false
+draft: true
 type: "project"
 hideLastModified: true
 summary: "Example App opening in new tab"
