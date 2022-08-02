@@ -67,7 +67,7 @@ The shiny application is embedded in an iFrame below. On some devices it may req
 {{< rawhtml >}}
             
               <h4>
-              <a href="https://github.com/dunhampa/Gambler_Roll" target="_blank">
+              <a href="https://github.com/dunhampa/Gambler_Roll" target="_blank" >
                 <span class="icon"><i class="fa fa-github"></i></span>
                 Source code on GitHub
               </a>

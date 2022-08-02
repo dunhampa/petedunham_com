@@ -127,7 +127,7 @@ params:
     bio: ""
     bulletpoints: ["▪ Full Stack Problem Solver","▪ Data Scientist", "▪ Interactive Art and Music Coder"]
     # option to specify image in the homepage
-    image: "/images/avatar.webp" 
+    image: "/images/logo.png" 
     # option to specify the width of the image in the homepage
     imageWidth: 85%
     #title of posts over summaries
