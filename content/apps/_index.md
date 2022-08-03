@@ -5,5 +5,5 @@ draft: false
 weight: 2
 ---
 
-Example apps and sites
+Portfolio apps that work best in a new browser tab. Each app is interactive so click around.
 
