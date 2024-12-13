@@ -5,6 +5,7 @@ draft: false
 type: "about"
 hideLastModified: true
 showInMenu: true
+weight: 1000
 # no need for the "summary" parameter as it is not displayed in any previews
 ---
 
