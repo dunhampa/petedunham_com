@@ -8,7 +8,7 @@ type: "project"
 summary: "Click here to interact with 3D plots created using R and Plotly"
 summaryImage: "3DScansPlotly.png"
 tags: ["R", "Plotly"]
-weight: 30
+weight: 999
 extApplUrl: "https://dunhampa.github.io/R_3D_Scanner_Plotting/"
 ---
 

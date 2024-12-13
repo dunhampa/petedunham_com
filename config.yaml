@@ -187,7 +187,7 @@ params:
     #    title: Instagram
     
     # option to specify the copyright in the footer
-    copyright: Pete Dunham - 2022
+    copyright: Pete Dunham - 2024
 
 ###################################################################
 ################## multilanguage support options ##################
@@ -236,4 +236,4 @@ languages:
         # github: 
         #   link: username
         #   title: Github
-        copyright: Pete Dunham 2022
+        copyright: Pete Dunham 2024

@@ -9,7 +9,7 @@ summary: "Click to add hearts"
 summaryImage: "pushheart2.png"
 tags: ["processing", "p5js"]
 weight: 1000
-extApplUrl: "https://p5js.rightbraintransistor.com/pushheart.html"
+extApplUrl: "https://www.hearts.rightbraintransistor.com/"
 ---
 
 
